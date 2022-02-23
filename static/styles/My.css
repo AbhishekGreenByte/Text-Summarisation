@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    font-family: 'Lemonada', cursive;
+  }
+  .centered {
+    position: fixed; 
+    top: 10%;
+    left: 10%;
+    
+  }
+  p {
+    font-family: 'Coda Caption';
+    font-size:20px;
+    color:red;
+    
+  }
+  .center{
+    font-family: 'Inconsolata', monospace;
+    font-size:15px;
+    
+    
+  }
+
+.btn{
+    font-family:'Lobster', cursive;
+
+}
+body{
+  background-image: url("image.jpg");
+}
+
+
+

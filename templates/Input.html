@@ -1,0 +1,25 @@
+<html>  
+    <head>
+        <title>Text Summariser By Abhishek Sahu And Biswajit Padhy</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/My.css') }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Inconsolata|Lemonada|Lobster&display=swap');
+            </style>
+    </head>
+    <body>    
+            <h1>Extractive Text Summariser using <b><u>TexRank</u></b></h1>
+        <div class="centered">
+                
+                <form action="http://localhost:1000/result" method="POST">
+                    <p>
+                        <b>Enter Your Article</b><br>
+                        <textarea placeholder="Enter Here" name="Text" rows="20" cols="120" class=" center p-3 mb-2 bg-light text-dark"></textarea><br>
+                        <button type="submit" class="btn btn-success">Summariser</button>
+        
+                    </p>
+                </form>
+        </div>  
+        
+    </body>
+</html>
