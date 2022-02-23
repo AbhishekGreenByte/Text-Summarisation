@@ -1,0 +1,2 @@
+https://nlp.stanford.edu/data/glove.6B.zip
+Use the 100d word embedding
